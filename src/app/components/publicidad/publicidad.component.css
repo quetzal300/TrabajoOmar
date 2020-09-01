@@ -1,0 +1,316 @@
+p{
+  margin: 0;
+  padding:0;
+}
+table{
+   border-collapse: collapse;
+}
+a:link
+{
+text-decoration:none;
+}
+.Background {
+  width: 1360px;
+  height: 768px;
+}
+.Table {
+  width: 1024px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #cccccc;
+
+  /* border: inset 0pt */
+}
+.TableTop{
+  width: 1024px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.EI{
+  width: 120px;
+  height: 3px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.Secion{
+  width: 120px;
+  height: 40px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.Creado{
+  width: 120px;
+  height: 40px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.Fecha{
+  width: 160px;
+  height: 40px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.Duracion{
+  width: 120px;
+  height: 40px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.Nombre{
+  width: 136px;
+  height: 40px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.Imagen{
+  width: 100px;
+  height: 40px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+}
+.Top{
+  position: fixed;
+  top: 95px;
+  left: 280px;
+}
+.Campos{
+  width: 1024px;
+  height: 84px;
+  border:   #F7F7F7 4px solid;
+  border-radius: 3px;
+}
+.banner_1 {
+  width: 115px;
+  height: 64px;
+}
+.texto1 {
+  width: 101px;
+  height: 34px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+.texto2 {
+  width: 83px;
+  height: 30px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+}
+.texto3 {
+  width: 81px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+}
+.texto3 {
+  width: 59px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #666666;
+}
+.Active {
+  width: 104px;
+  height: 24px;
+  object-fit: contain;
+}
+.fadebox {
+  opacity:.8;
+}
+.Camposoff{
+  width: 1024px;
+  height: 84px;
+  border:   #F7F7F7 4px solid;
+  border-radius: 3px;
+  opacity:.7;
+}
+.RectangleT{
+  width: 1136px;
+  height: 70px;
+  position: fixed;
+  left: 224;
+}
+.CategorT {
+  width: 207px;
+  height: 24px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #707070;
+  position: fixed;
+  top: 23px;
+  left: 280px;
+
+}
+.Tab_offT {
+  width: 48px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b8;
+  position: relative;
+  top: 12px;
+  left: 69px;
+}
+.OffT {
+  width: 184px;
+  height: 40px;
+  position: fixed;
+  top: 23px;
+  left: 568px;
+}
+.LineT {
+  width: 184px;
+  height: 1px;
+  background-color: #a2a2a2;
+  position: relative;
+  top: 20px;
+}
+.Tab_onT {
+  width: 48px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color:#ff0033;
+  position: relative;
+  top: 12px;
+  left: 69px;
+}
+.OnT {
+  width: 184px;
+  height: 40px;
+  position: fixed;
+  top: 23px;
+  left: 752px;
+}
+.LineoffT {
+  width: 184px;
+  height: 1px;
+  background-color: #a2a2a2;
+  position: relative;
+  top: 20px;
+}
+.LineonT {
+  width: 184px;
+  height: 1px;
+  background-color: #ff0033;
+  position: relative;
+  top: 20px;
+}
+
+
+
+.subirT {
+  width: 176px;
+  height: 32px;
+  border-radius: 3px;
+  background-color: #ff0033;
+  border:0px;
+  position: fixed;
+  top: 22px;
+  left: 1128px;
+}
+.BotnT {
+  width: 101px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: 2px;
+  left: 30px;
+}
+.Edit {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.Trashcan {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: relative;
+  left: 32px;
+}

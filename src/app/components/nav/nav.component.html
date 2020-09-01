@@ -1,0 +1,53 @@
+<div class="Rectangle">
+  <img src="../../../assets/img/officedepot.svg"
+  class="Officedepot">
+  <ul class="bajar">
+    <li class="Rectangle1">
+      <img src="../../../assets/img/publicidad-on.svg"
+      class="Publicidad_on">
+      <p class="Publicidad">Publicidad</p>
+    </li>
+    <li *ngIf="indicador" class="Rectangle1">
+      <div class="Rectangle_red">
+      </div>
+      <img src="../../../assets/img/on.svg"
+      class="On">
+      <a routerLink="/Publicidad"><p class="OnL">Home</p></a>
+    </li>
+    <li (click)="indicador=!indicador" *ngIf="indicador" class="Rectangle1">
+      <a routerLink="/PublicidadC"><p class="off">Categorías</p></a>
+
+    </li>
+    <li  (click)="indicador=!indicador" *ngIf="!indicador" class="Rectangle1">
+      <a routerLink="/Publicidad"><p class="off">Home</p></a>
+
+    </li>
+    <li *ngIf="!indicador" class="Rectangle1">
+      <div class="Rectangle_red">
+      </div>
+      <img src="../../../assets/img/on.svg"
+      class="On">
+      <a routerLink="/PublicidadC"><p class="OnL">Categorías</p></a>
+    </li>
+    <li class="Rectangle1">
+      <img src="../../../assets/img/usuario-off.svg"
+      class="Usuario_off">
+      <p class="Dashboard">Usuarios</p>
+    </li>
+    <li class="Rectangle1">
+      <img src="../../../assets/img/notificaciones-off.svg"
+      class="Notificaciones_off">
+      <p class="Dashboard">Notificaciones</p>
+    </li>
+    <li class="Rectangle1">
+      <img src="../../../assets/img/info-off.svg"
+     class="Info_off">
+     <p class="Dashboard">Info. Adicional</p>
+    </li>
+    <li class="salida"  >
+      <a (click)="salida()" routerLink="/IniciaSesion"><img src="../../../assets/img/logout-on.svg"
+        class="Info_off"></a>
+      <p class="Dashboard">{{correo}} </p>
+    </li>
+  </ul>
+</div>

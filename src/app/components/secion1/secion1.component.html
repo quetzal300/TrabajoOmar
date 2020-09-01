@@ -1,0 +1,55 @@
+<form class="BajarSecion"  (ngSubmit)="Enviartoken(formulario)" #formulario="ngForm" >
+  <div class="Inactive">
+    <div class="Line"></div>
+    <input  id="entradaCorreo"
+            (keyup)="mostrarCoreoup()"
+            class="Container Placeholder "
+            [(ngModel)]="usuario.email"
+            name="Correo electrónico"
+            placeholder="Correo electrónico"
+            type="email"
+            (keyup)="redAcceder()"
+            required
+            email
+            >
+
+    <p *ngIf="mostrarCoreo" class="moverIndicacion">Correo electrónico</p>
+  </div>
+
+  <div class="borde"></div>
+
+  <div class="Inactive">
+    <div class="Line"></div>
+    <input id="entradaContra"
+           (keyup)="mostrarContrasenaup()"
+            class="Container Placeholder "
+            placeholder="Contraseña"
+            type="password" (keyup)="redAcceder()"
+            name="Contraseña"
+            [(ngModel)]="usuario.password">
+    <p *ngIf="mostrarContrasena" class="moverIndicacion">Contraseña</p>
+    <a (click)="mostrarPass()" (click)="cambiaOjo()" [className]= " OjoClass ?'Eye_off':'Eye_on'"  id="campiaOjo" ></a>
+    <!-- <img  class="Eye_off" src="../../../assets/img/eye-off.png"
+     srcset="img/eye-off@2x.png 2x,
+             img/eye-off@3x.png 3x"> -->
+     <!-- svg -->
+     <!-- <img src="img/eye-off.svg"
+     class="Eye_off"> -->
+    <div>
+    </div>
+  </div>
+
+  <button [className]= " Acceder ?'Rectangle':'Rectangle1'"><p class="Botn">Acceder</p></button>
+  <a  routerLink="/RestableserPass" class="Olvid-mi-contrasea"  ><p>Olvidé mi contraseña</p></a>
+</form>
+
+<div *ngIf="formulario.submitted && formulario.controls['Correo electrónico'].errors" class="RectangleErr">
+  <div>
+    <img src="../../../assets/img/alert.svg"
+     class="Alert">
+  </div>
+  <p class="La-cuenta-o-contrase">
+    La cuenta o contraseña que has introducido no es válida. Por favor, introduce una cuenta diferente
+  </p>
+</div>
+

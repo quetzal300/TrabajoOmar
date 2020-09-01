@@ -1,0 +1,174 @@
+
+.Inactive {
+  width: 280px;
+  height: 64px;
+}
+.Container {
+  width: 280px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+.Line {
+  width: 280px;
+  height: 1px;
+  background-color: #a2a2a2;
+  position: relative;
+  top: 48px;
+
+}
+.Line2 {
+  width: 280px;
+  height: 1px;
+  background-color: #a2a2a2;
+  position: relative;
+  top: 36px;
+}
+.Placeholder {
+  border: 0;
+  outline: 0;
+  width: 210px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  position: relative;
+  top: 15px;
+  left: 12px;
+}
+.BajarSecion{
+  position: fixed;
+  top: 270px;
+  left: 88px;
+}
+.moverIndicacion{
+  border: 0;
+  outline: 0;
+  width: 91px;
+  height: 13px;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  position: relative;
+  top: -36px;
+}
+.borde{
+  width: 280px;
+  height: 16px;
+}
+
+.Rectangle {
+  width: 192px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgba(255, 0, 51, 0.4);
+  border:0px;
+  position: fixed;
+  top: 446px;
+  left: 88px;
+}
+.Rectangle1 {
+  width: 192px;
+  height: 40px;
+  border-radius: 3px;
+  background-color:#ff0033;
+  border:0px;
+  position: fixed;
+  top: 446px;
+  left: 88px;
+}
+.Botn {
+
+  width: 52px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f2f2f2;
+  position: relative;
+  top: -2px;
+  left: 71px;
+}
+.Olvid-mi-contrasea {
+  width: 112px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #505050;
+  position: fixed;
+  top:518px;
+  left: 88px;
+}
+.Eye_off {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: fixed;
+  top: 362px;
+  left: 330px;
+  border: 0;
+  background-image:url("../../../assets/img/eye-off.png");
+}
+.Eye_on {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: fixed;
+  top: 362px;
+  left: 330px;
+  border: 0;
+  background-image:url("../../../assets/img/eye-on.png");
+}
+.RectangleErr {
+  width: 280px;
+  height: 80px;
+  border-radius: 4px;
+  border: solid 2px #ff2f2f;
+  position: fixed;
+  top: 576px;
+  left: 88px;
+}
+.Alert {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: relative;
+  top: 28px;
+  left: 12px;
+}
+.La-cuenta-o-contrase {
+  width: 216px;
+  height: 51px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #707070;
+  position: relative;
+  top: -27px;
+  left: 48px;
+}
+

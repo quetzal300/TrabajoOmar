@@ -1,0 +1,76 @@
+<app-nav></app-nav>
+<div class="Top">
+  <a routerLink="/Publicidad">
+    <img src="../../../assets/img/back.svg"
+     class="Back">
+  </a>
+
+<p class="Subir-publicidad">Subir publicidad/Categoría</p>
+</div>
+
+<form (ngSubmit)="guardar(f ,archivo)"
+      #f = "ngForm" >
+  <div class="Inactive caja1">
+    <select [(ngModel)]="Publisidad.Sesion" name="Secion" class="Placeholder" required>
+      <option value="0">Sección</option>
+      <option value="1">Principal 1</option>
+      <option value="2">Principal 2</option>
+      <option value="3">Principal 3</option>
+      <option value="4">Principal 4</option>
+      <option value="5">Secundario izquierdo</option>
+      <option value="6">Secundario dereco</option>
+    </select>
+  </div>
+  <div class="Inactive caja2" >
+    <select [(ngModel)]="Publisidad.Categoria" name="Categoria" class="Placeholder"required >
+      <option value="0">Categorias</option>
+      <option value="1">Opciones de Categorias</option>
+      <option value="2">Detalles de Categoria</option>
+    </select>
+  </div>
+  <div class="Las-dimensiones-debe">
+      <p  >Las dimensiones deben ser de 1344  x  744 px   /   Deben pesar máximo 1MB
+      </p>
+      <p>
+        Formato: jpg, jpeg o png
+      </p>
+  </div>
+
+  <div  [archivos] = "archivo"
+        appDropFile [ngClass]="{ 'drop': estaSObreDrop}"
+        (mouseSobre)="estaSObreDrop = $event " class="imagen" >
+    <p class="-arrastra-la-imagen ">ó arrastra la imagen aquí</p>
+    <input (change)="selecionaImg($event)" class="subir" type="file" accept=".jpg, .jpeg, .png" required>
+    <!-- <button routerLink="/Subir" class="subir"><p class="Botn">Subir imagen</p></button> -->
+  </div>
+
+  <div class="NombreBaner">
+    <input [(ngModel)]="Publisidad.Nombre"
+           name="Nombre"
+           class="Nbaner"
+           placeholder="Nombre del banner"
+           type="text"
+           required>
+    <div class="Line">
+
+    </div>
+  </div>
+
+  <div class="Duracion">
+    <input [(ngModel)]="Publisidad.Duracion"
+           name="Duracion"
+           class="Nbaner"
+           placeholder="Duracion"
+           type="text"
+           required>
+    <div class="Line">
+
+    </div>
+  </div>
+
+  <!-- (click)="cargaImagen(archivo)" -->
+  <!-- (click)="guardar(f)" -->
+  <button type="submit" value="Submit" class="crear"><p class="crear2"> Crear</p></button>
+
+</form>
+<button routerLink="/PublicidadC" (click)="limpiar()"  class="Cancelar"><p class="Cancelar2"> Cancelar</p></button>

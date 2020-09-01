@@ -1,0 +1,70 @@
+.Officedepot {
+  width: 184px;
+  height: 32px;
+  object-fit: contain;
+  position: fixed;
+  top: 66px;
+  left: 96px;
+}
+.OD0_2-3_Mensaje_existoso_restablecer_contrasea {
+  width: 1360px;
+  height: 768px;
+  position: fixed;
+  top: 286px;
+  left: 96px;
+}
+.Te-hemos-enviado-un {
+  width: 272px;
+  height: 64px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #707070;
+  position: fixed;
+  top: 328px;
+  left: 96px;
+}
+.Listo {
+  width: 82px;
+  height: 34px;
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #353535;
+  position: fixed;
+  top: 263px;
+  left: 96px;
+}
+.Rectangle {
+  width: 192px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #ff0033;
+  position: fixed;
+  top: 424px;
+  left: 96px;
+}
+.Botn {
+  width: 65px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: -2px;
+  left: 60px;
+}

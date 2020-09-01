@@ -1,0 +1,186 @@
+.Officedepot {
+  width: 184px;
+  height: 32px;
+  object-fit: contain;
+  position: fixed;
+  top: 66px;
+  left: 96px;
+}
+.OD0_2_olvide_contrasea {
+  width: 130px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff0033;
+  position: fixed;
+  top: 159px;
+  left: 96px;
+}
+.Restablecer-contrase {
+  width: 295px;
+  height: 34px;
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #353535;
+  position: fixed;
+  top: 183px;
+  left: 96px;
+}
+.Ingresa-la-direccin {
+  width: 272px;
+  height: 64px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #707070;
+  position: fixed;
+  top: 248px;
+  left: 96px;
+}
+.Container {
+  width: 280px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+.Placeholder {
+  border: 0;
+  outline: 0;
+  width: 210px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  position: fixed;
+  top: 358px;
+  left: 100px;
+}
+.Rectangle {
+  width: 192px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgba(255, 0, 51, 0.4);
+  border:0px;
+  position: fixed;
+  top: 446px;
+  left: 88px;
+}
+.Rectangle1 {
+  width: 192px;
+  height: 40px;
+  border-radius: 3px;
+  background-color:#ff0033;
+  border:0px;
+  position: fixed;
+  top: 446px;
+  left: 88px;
+}
+
+
+.Botn {
+  width: 41px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: fixed;
+  top: 446px;
+  left: 164px;
+}
+.Line {
+  width: 280px;
+  height: 1px;
+  background-color: #a2a2a2;
+  position: fixed;
+  top: 389px;
+  left: 88px;
+
+}
+.Inactive {
+  width: 280px;
+  height: 66px;
+}
+.moverIndicacion{
+  border: 0;
+  outline: 0;
+  width: 91px;
+  height: 13px;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  position: fixed;
+  top: 326px;
+  left: 100px;
+}
+.Regresar-al {
+  width: 150px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  position: fixed;
+  top: 539px;
+  left: 88px;
+}
+.Inicio-de-sesin {
+  width: 100px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #505050;
+}
+.Error-message {
+  width: 160px;
+  height: 13px;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff2f2f;
+  position: absolute;
+  top: 391px;
+  left: 100px;
+}

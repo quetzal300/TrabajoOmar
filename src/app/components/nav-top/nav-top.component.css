@@ -1,0 +1,126 @@
+p{
+  margin: 0;
+  padding:0;
+}
+a:link
+{
+text-decoration:none;
+}
+.RectangleT{
+  width: 1136px;
+  height: 70px;
+  position: fixed;
+  left: 224;
+}
+.CategorT {
+  width: 207px;
+  height: 24px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #707070;
+  position: fixed;
+  top: 23px;
+  left: 280px;
+
+}
+.Tab_offT {
+  width: 48px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b8;
+  position: relative;
+  top: 12px;
+  left: 69px;
+}
+.OffT {
+  width: 184px;
+  height: 40px;
+  position: fixed;
+  top: 23px;
+  left: 568px;
+}
+.LineT {
+  width: 184px;
+  height: 1px;
+  background-color: #a2a2a2;
+  position: relative;
+  top: 20px;
+}
+.Tab_onT {
+  width: 48px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color:#ff0033;
+  position: relative;
+  top: 12px;
+  left: 69px;
+}
+.OnT {
+  width: 184px;
+  height: 40px;
+  position: fixed;
+  top: 23px;
+  left: 752px;
+}
+.LineoffT {
+  width: 184px;
+  height: 1px;
+  background-color: #a2a2a2;
+  position: relative;
+  top: 20px;
+}
+.LineonT {
+  width: 184px;
+  height: 1px;
+  background-color: #ff0033;
+  position: relative;
+  top: 20px;
+}
+
+
+
+.subirT {
+  width: 176px;
+  height: 32px;
+  border-radius: 3px;
+  background-color: #ff0033;
+  border:0px;
+  position: fixed;
+  top: 22px;
+  left: 1128px;
+}
+.BotnT {
+  width: 101px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: 2px;
+  left: 30px;
+}

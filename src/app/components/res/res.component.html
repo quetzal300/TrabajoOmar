@@ -1,0 +1,40 @@
+<app-inicio-imagen ></app-inicio-imagen>
+<div>
+  <img class="Officedepot"
+  src="./assets/img/officedepot.png"
+  srcset="img/officedepot@2x.png 2x,
+          img/officedepot@3x.png 3x"
+          >
+
+  <p class="OD0_2_olvide_contrasea" >
+    Olvidé mi contraseña
+  </p>
+
+  <h2 class="Restablecer-contrase">Restablecer contraseña</h2>
+  <p class="Ingresa-la-direccin" >Ingresa la dirección de correo electrónico asociada a tu cuenta
+    y te enviaremos un enlace para restablecer tu contraseña</p>
+
+ <form (ngSubmit)="Enviar(formulario)" #formulario="ngForm">
+   <div class="Inactive">
+    <div class="Line"></div>
+    <input  id="Correo"
+     (keyup)="mostrarCoreoup()"
+     class="Container Placeholder "
+     [(ngModel)]="usuario.email"
+     name="Correo electrónico"
+     placeholder="Correo electrónico"
+     type="email"
+     (keyup)="redAccederr()"
+     required
+     email
+     >
+     <p *ngIf="mostrarCoreo" class="moverIndicacion">Correo electrónico</p>
+   </div>
+   <button [className]= "Acceder ?'Rectangle':'Rectangle1'"><p class="Botn">Enviar</p></button>
+   <p class="Regresar-al" >Regresa a <a routerLink="/IniciaSesion" class="Inicio-de-sesin ">Inicio de sesión</a></p>
+   <p *ngIf="!mensajeCorreo" class="Error-message" >Este correo no está registrado</p>
+   </form>
+</div>
+<app-footer></app-footer>
+
+

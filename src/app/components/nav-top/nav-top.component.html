@@ -1,0 +1,26 @@
+<div class="RectangleT">
+  <p class="CategorT">Publicidad / Home</p>
+  <div class="OffT">
+    <a  (click)="Activas()"
+        (click)="red = false"
+        routerLink="/Publicidad">
+      <p [className]=" red ?'Tab_offT':'Tab_onT'">
+        Activos
+      </p>
+      <div [className]=" red ?'LineoffT':'LineonT'"></div>
+    </a>
+  </div>
+
+  <div class="OnT ">
+    <a  (click)="Inactivas()"
+        (click)="red = true"
+        routerLink="/Publicidad">
+      <p [className]=" red ?'Tab_onT':'Tab_offT'">
+        Inactivos
+      </p>
+      <div [className]=" red ?'LineonT':'LineoffT'"></div>
+    </a>
+  </div>
+
+  <button routerLink="/Publicidad/SubirHome" class="subirT"><p class="BotnT">Subir publicidad</p></button>
+</div>

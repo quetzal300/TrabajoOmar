@@ -1,0 +1,155 @@
+ul{
+  list-style-type: none ;
+  margin: 0;
+  padding:0;
+}
+p{
+  margin: 0;
+  padding:0;
+}
+a:link
+{
+text-decoration:none;
+}
+.Rectangle {
+  width: 224px;
+  height: 768px;
+  box-shadow: 1px 0 5px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.Officedepot {
+  width: 176px;
+  height: 32px;
+  object-fit: contain;
+  position: fixed;
+  top: 16px;
+  left: 24px;
+}
+.Rectangle1 {
+  width: 224px;
+  height: 48px;
+  background-color: #ffffff;
+}
+.bajar{
+  position: fixed;
+  top: 72px;
+}
+.Publicidad_on {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: relative;
+  top: 12px;
+  left: 16px;
+}
+.Publicidad {
+  width: 67px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ff0033;
+  position: relative;
+  top: -12px;
+  left: 56px;
+}
+.Usuario_off {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: relative;
+  top: 12px;
+  left: 16px;
+}
+.Notificaciones_off {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: relative;
+  top: 12px;
+  left: 16px;
+}
+.Info_off {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: relative;
+  top: 12px;
+  left: 16px;
+}
+.Rectangle_red {
+  width: 4px;
+  height: 40px;
+  transform: rotate(-180deg);
+  border-radius: 4px;
+  background-color: #ff0033;
+  position: relative;
+}
+.On {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: relative;
+  top: -32px;
+  left: 16px;
+}
+.Dashboard {
+  width: 91px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b8b8b8;
+  position: relative;
+  top: -12px;
+  left: 56px;
+}
+.off{
+  width: 91px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b8b8b8;
+  position: relative;
+  top: 16px;
+  left: 56px;
+}
+.OnL{
+  width: 91px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #b8b8b8;
+  position: relative;
+  top: -55px;
+  left: 56px;
+}
+.salida {
+  width: 224px;
+  height: 48px;
+  background-color: #cccccc;
+  position: fixed;
+  top: 720px;
+  left: 0px;
+}

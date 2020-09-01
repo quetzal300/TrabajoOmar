@@ -1,0 +1,117 @@
+<div >
+  <app-nav></app-nav>
+  <!-- Nav Top -->
+  <div class="RectangleT">
+    <p class="CategorT">Publicidad / Home</p>
+    <div class="OffT">
+      <a  (click)="Activas()"
+          (click)="red = false"
+          routerLink="/Publicidad">
+        <p [className]=" red ?'Tab_offT':'Tab_onT'">
+          Activos
+        </p>
+        <div [className]=" red ?'LineoffT':'LineonT'"></div>
+      </a>
+    </div>
+
+    <div class="OnT ">
+      <a  (click)="Inactivas()"
+          (click)="red = true"
+          routerLink="/Publicidad">
+        <p [className]=" red ?'Tab_onT':'Tab_offT'">
+          Inactivos
+        </p>
+        <div [className]=" red ?'LineonT':'LineoffT'"></div>
+      </a>
+    </div>
+
+    <button routerLink="/Publicidad/SubirHome" class="subirT"><p class="BotnT">Subir publicidad</p></button>
+  </div>
+
+  <table *ngIf="AoI" class="Top TableTop">
+    <tr class="Table" >
+      <th class="Imagen">Imagen</th>
+
+      <th class="Nombre">Nombre del banner</th>
+
+      <th class="Duracion">Duración</th>
+
+      <th class="Fecha">Fecha de creación</th>
+
+      <th class="Creado">Creado por</th>
+
+      <th class="Secion">Sección</th>
+
+      <th class="Secion"></th>
+
+    </tr>
+
+    <tr [className]= " producto.Activo ?'Campos':'Camposoff'" *ngFor="let producto of Lista" >
+
+      <th ><img class="banner_1" src="{{producto.url}}" alt=""></th>
+
+      <th class="texto1" >{{producto.Nombre}}</th>
+
+      <th class="texto2">{{producto.Duracion}}</th>
+
+      <th class="texto3">{{producto.Creado}}</th>
+
+      <th class="texto3" >{{producto.Usuario}}</th>
+
+      <th class="Active" >
+        <img src="<../../../../../assets/img/active.svg ">
+      </th>
+
+      <th class="Active" >
+        <a (click)="enviaID(producto)" routerLink="/Publicidad/EditarHome"> <img class="Edit" src="<../../../../../assets/img/edit.svg "> </a>
+        <a (click)="Eliimnar(producto.id)" routerLink="/Publicidad"><img class="Trashcan" src="<../../../../../assets/img/trashcan.svg "> </a>
+      </th>
+
+    </tr>
+
+  </table>
+
+
+  <table *ngIf="!AoI" class="Top TableTop">
+    <tr class="Table" >
+      <th class="Imagen">Imagen</th>
+
+      <th class="Nombre">Nombre del banner</th>
+
+      <th class="Duracion">Duración</th>
+
+      <th class="Fecha">Fecha de creación</th>
+
+      <th class="Creado">Creado por</th>
+
+      <th class="Secion">Sección</th>
+
+      <th class="Secion"></th>
+
+    </tr>
+
+    <tr [className]= " !producto.Activo ?'Campos':'Camposoff'" *ngFor="let producto of Lista" >
+
+      <th ><img class="banner_1" src="{{producto.url}}" alt=""></th>
+
+      <th class="texto1" >{{producto.Nombre}}</th>
+
+      <th class="texto2">{{producto.Duracion}}</th>
+
+      <th class="texto3">{{producto.Creado}}</th>
+
+      <th class="texto3" >{{producto.Usuario}}</th>
+
+      <th class="Active" >
+        <img src="<../../../../../assets/img/active.svg ">
+      </th>
+
+      <th class="Active" >
+        <a (click)="enviaID(producto)" routerLink="/Publicidad/EditarHome"> <img class="Edit" src="<../../../../../assets/img/edit.svg "> </a>
+        <a (click)="Eliimnar(producto.id)" routerLink="/Publicidad"><img class="Trashcan" src="<../../../../../assets/img/trashcan.svg "> </a>
+      </th>
+
+    </tr>
+
+  </table>
+</div>

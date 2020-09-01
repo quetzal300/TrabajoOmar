@@ -1,0 +1,203 @@
+p{
+  margin: 0;
+  padding:0;
+}
+a:link
+{
+text-decoration:none;
+}
+.Top {
+  width: 1136px;
+  height: 70px;
+  position: fixed;
+  left: 224px;
+}
+.Back {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  position: fixed;
+  top: 22px;
+  left: 280px;
+}
+.Inactive {
+  width: 264px;
+  height: 64px;
+}
+.caja1{
+  position: fixed;
+  top: 94px;
+  left: 520px;
+}
+.caja2{
+  position: fixed;
+  top: 94px;
+  left: 800px;
+}
+.Las-dimensiones-debe {
+  width: 544px;
+  height: 40px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #707070;
+  position: fixed;
+  top: 158px;
+  left: 520px;
+}
+.imagen {
+  width: 544px;
+  height: 296px;
+  border-radius: 3px;
+  background-color: #cccccc;
+  position: fixed;
+  top: 214px;
+  left: 520px;
+}
+.-arrastra-la-imagen {
+  width: 129px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #707070;
+  position: fixed;
+  top: 379px;
+  left: 728px;
+}
+.subir {
+  width: 160px;
+  height: 32px;
+  border-radius: 3px;
+  border: 0;
+  background-color: #ff0033;
+  position: fixed;
+  top: 331px;
+  left: 712px;
+}
+.Botn {
+  width: 82px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: fixed;
+  top: 339px;
+  left: 752px;
+}
+
+.NombreBaner {
+  width: 544px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 542px;
+  left: 520px;
+}
+
+.Duracion{
+  width: 544px;
+  height: 64px;
+  position: fixed;
+  top: 622px;
+  left: 520px;
+}
+
+.crear{
+  width: 160px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgba(255, 0, 51, 0.4);
+  border: 0;
+  position: fixed;
+  top: 726px;
+  left: 904px;
+}
+.crear2 {
+  width: 36px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f2f2f2;
+  position: fixed;
+  top: 738px;
+  left: 967px;
+}
+.Placeholder {
+  width: 264px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: 0;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+}
+.Nbaner{
+  width: 544px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: 0;
+  outline: 0;
+  width: 210px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+}
+.Line {
+  width: 544px;
+  height: 1px;
+  border: 0;
+  background-color:  #a2a2a2;
+  position: relative;
+  top: 14px;
+}
+.Subir-publicidad {
+  width: 145px;
+  height: 24px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color:  #707070;
+  position: fixed;
+  top: 23px;
+  left: 312px;
+}

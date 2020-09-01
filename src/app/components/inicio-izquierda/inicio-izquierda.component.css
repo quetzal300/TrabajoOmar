@@ -1,0 +1,62 @@
+:root {
+  --warm-grey: #707070;
+  --red: #ff0000;
+}
+.Officedepot {
+  width: 184px;
+  height: 32px;
+  object-fit: contain;
+  position: fixed;
+  top: 66px;
+  left: 96px;
+}
+.Hola-de-nuevo {
+  width: 98px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /* color: var(--red); */
+  color: #ff0000;
+  position: fixed;
+  top: 136px;
+  left: 96px;
+}
+.CMS-Aplicacin-mvil {
+  width: 120px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /* color: var(--warm-grey); */
+  color: #707070;
+  position: fixed;
+  top: 163px;
+  left: 96px;
+}
+.Accede-a-tu-cuenta {
+  width: 238px;
+  height: 34px;
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #353535;
+  position: fixed;
+  top: 176px;
+  left: 96px;
+}
+.CMS-Aplicacin-mvil .text-style-1 {
+  letter-spacing: 1px;
+}
